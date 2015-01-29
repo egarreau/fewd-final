@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	
+		<title>Tea Time Quiz</title>
+
+		<!-- jquery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!--import google fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Elsie:400,900|Alegreya+Sans:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Tea Time Quiz</h1>
+				<h3>You find yourself once again in front of the tea cabinet, yearning for a hot beverage, but riddled with indecision. Which blend perfectly fits your personality? There's only one way to find out.</h3>
+				<a href="#question1"><div id="take-the-quiz">Take the quiz</div></a>
+			</header>
+			<div id="quiz">
+				<div class="question-box" id="question1">
+					<h2 class="question-title">First things first: how are you feeling today?</h2>
+					<div class="answer-box">
+						<a class="answer caf" href="#question2">
+							<h3>Tired. I need a jolt to get me going.</h3>
+						</a>
+						<a class="answer decaf" href="#question2">
+							<h3>Mellow. I'm ready to curl up and relax.</h3>
+						</a>
+						<a class="answer decaf" href="#question2">
+							<h3>Hyper. I need to calm down.</h3>
+						</a>
+						<a class="answer caf" href="#question2">
+							<h3>Energized. I'm ready to go and need something to help me take on the world!</h3>
+						</a>
+					</div>
+				</div>
+				<div class="question-box" id="question2">
+					<h2 class="question-title">Hypothetical time: It's Saturday afternoon and you've got a couple of hours to yourself. What do you do?</h2>
+					<div class="answer-box">
+						<a class="answer earthy" href="#question3">
+								<h3>Go for a hike on your favorite path. Those new hiking boots won't break themselves in.</h3>
+						</a>
+						<a class="answer sassy" href="#question3">
+								<h3>Scan the announcements page of the newspaper and track down a wedding to crash. Free champagne, baby!</h3>
+						</a>
+						<a class="answer loyal" href="#question3">
+								<h3>Phone a friend you haven't talked to in a while, just to catch up and shoot the breeze.</h3>
+						</a>
+						<a class="answer smart" href="#question3">
+								<h3>Find a cozy spot with a good book. You've been meaning to catch up on <em>The Wind-up Bird Chronicles</em>.</h3>
+						</a>
+					</div>
+				</div>
+				<div class="question-box" id="question3">
+					<h2 class="question-title">Take a trip down memory lane. What were you like in high school?</h2>
+					<div class="answer-box">
+						<a class="answer sassy" href="#question4">
+								<h3>I was the cool one who stuffed other kids into lockers.</h3>
+						</a>
+						<a class="answer smart" href="#question4">
+								<h3>I was the one getting stuffed into lockers.</h3>
+						</a>
+						<a class="answer loyal" href="#question4">
+								<h3>I was the one standing up for the kids getting stuffed into lockers.</h3>
+						</a>
+						<a class="answer earthy" href="#question4">
+								<h3>I was the one in the bathroom getting high.</h3>
+						</a>
+					</div>
+				</div>
+				<div class="question-box"id="question4">
+					<h2 class="question-title">Personal question: what's your dream date? *wink*</h2>
+					<div class="answer-box">
+						<a class="answer loyal" href="#question5">
+								<h3>Taking a long walk on the beach hand-in-hand as the sun sets.</h3>
+						</a>
+						<a class="answer earthy" href="#question5">
+								<h3>Planting a community garden together. Mud fight!</h3>
+						</a>
+						<a class="answer smart" href="#question5">
+								<h3>Visiting a museum and discussing famous works of art.</h3>
+						</a>
+						<a class="answer sassy" href="#question5">
+								<h3>Bantering over a glass of wine at a new restaurant.</h3>
+						</a>
+					</div>
+				</div>
+				<div class="question-box"id="question5">
+					<h2 class="question-title">You're going places! What whimsicle mode of transportation will take you there?</h2>
+					<div class="answer-box">
+						<a class="answer earthy" href="#question6">
+								<h3>Unicycle</h3>
+						</a>
+						<a class="answer smart" href="#question6">
+								<h3>Luxury train</h3>
+						</a>
+						<a class="answer sassy" href="#question6">
+								<h3>Hot air balloon</h3>
+						</a>
+						<a class="answer loyal" href="#question6">
+								<h3>Horseback</h3>
+						</a>
+					</div>
+				</div>
+				<div class="question-box"id="question6">
+					<h2 class="question-title">Finally, the only question that really matters: what Hogwarts house are you in?</h2>
+					<div class="answer-box">
+						<a class="answer loyal submit" href="#results">
+								<h3>Gryffindor</h3>
+						</a>
+						<a class="answer earthy submit" href="#results">
+								<h3>Hufflepuff</h3>
+						</a>
+						<a class="answer smart submit" href="#results">
+								<h3>Ravenclaw</h3>
+						</a>
+						<a class="answer sassy submit" href="#results">
+								<h3>Slytherin</h3>
+						</a>
+					</div>
+				</div>
+			</div> <!--end question box-->
+			<div id="results">
+				<div class="question-box result" id="sassy-caf">
+					<h2>Grab some Chai to go with your spice, you sassy thing!</h2>
+					<h3>Oh chai there, hot thang! Brew a hot cup of spicy chai to match your saucy wit.</h3>
+				</div>
+				<div class="question-box result" id="smart-caf">
+					<h2>Get going with a cup of Earl Grey and your favorite blog.</h2>
+					<h3>Intellectual iguanas such as yourself need some sweet time to relax. Brew up a piping hot kettle of the greyest earl, and get ready to soak up the knowledge!</h3>
+				</div>
+				<div class="question-box result" id="loyal-caf">
+					<h2>Boost your energy with English Breakfast and a good friend.</h2>
+					<h3>Tally-ho! Time to break out the scones and clotted cream! Invite your bestest pals over for a brunch of the fanciest varietal.</h3>
+				</div>
+				<div class="question-box result" id="earthy-caf">
+					<h2>Get back to nature with a strong cup of Pu ehr.</h2>
+					<h3>Pu where? Pu ehr! You need energy to dance around the bonfire all night at your very own version of Woodstock. Throw on your Birks and sip on a mug of Puh ehr to prepare.</h3>
+				</div>
+				<div class="question-box result" id="sassy-decaf">
+					<h2>Put your dancing feet up with a cup of Raspberry Zinger.</h2>
+					<h3>After a long night of dancing to Ke$ha’s latest beatz, you need to rest and relax with some sassy Zinger. (It’s as wacky as your latest hairdo!)
+</h3>
+				</div>
+				<div class="question-box result" id="smart-decaf">
+					<h2>Curl up with a good book and some Mint tea to stimulate your mind.</h2>
+					<h3>Mint-flavored things are proven to boost memory recall. Find a quiet place to read and learn with a hot cup of mint tea.</h3>
+				</div>
+				<div class="question-box result" id="loyal-decaf">
+					<h2>Catch up with a friend over a cup of Lemon tea.</h2>
+					<h3>Just like you, lemon tea is a dependable favorite, perfect for any situation. Grab a friend you haven’t seen in a while and brew up a cup.</h3>
+				</div>
+				<div class="question-box result" id="earthy-decaf">
+					<h2>Wind down with some Ginger tea.</h2>
+					<h3>Relax and dream of backpacking through India with a hot spicy cup of ginger tea.</h3>
+				</div>
+			</div>
+		</div><!-- /container --> 
+		<script src="js/main.js"></script>
+	</body>
+</html>

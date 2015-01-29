@@ -1,0 +1,95 @@
+/* 
+Project Name: Tea Time Quiz
+Author: Evangeline Garreau
+Developer @GA in Boston
+Final Project
+*/
+@import url(http://fonts.googleapis.com/css?family=Elsie:400,900|Alegreya+Sans:300,400,300italic,400italic);
+
+body {
+     color: #000;
+     background-color: white;
+     font-size: 1em;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url('../images/tea_lover4.png');
+}
+
+header{
+     background: white;
+     padding: 15%;
+     margin: 10% 0;
+     border: 5px solid #fdffaa;
+     border-radius: 20px;
+}
+
+h1, h2, h3{
+     text-align: center;
+}
+
+h1{
+     font-family: 'Elsie', cursive;
+     font-size: 4em;
+}
+
+h2{
+     font-family: 'Elsie', cursive;
+}
+
+h3{
+     font-family: 'Alegreya Sans', sans-serif;
+}
+
+a{
+     font-family: 'Elsie', cursive;
+     text-align: center;
+     text-decoration: none;
+     color: black;
+     font-size: 2em;
+     color: #00b9bc;
+}
+
+
+#container {
+	width: 60%;
+	margin: 5% auto 10% auto;
+}
+
+
+.quiz{
+     padding-top: 20%;
+}
+
+.question-box{
+     width: 100%;
+     margin: auto;
+     margin-top: 30%;
+     padding: 10% 0 10% 0;
+     border: 5px solid #fdffaa;
+     border-radius: 20px;
+     background: white;
+
+}
+
+.answer-box{
+     padding: 3%;
+     margin: auto;
+     display: inline-block;
+     width: 94%;
+     //border: 5px solid;
+}
+
+.answer{
+     display: inline-block;
+     //border: 1px solid black;
+     width: 21.6%;
+     margin: auto;
+     padding: 20px 10px;
+     background-color: #b3fafc;
+     font-size: 1em;
+     color: black;
+}
+
+.result{
+     border: 5px solid #b3fafc;
+     border-radius: 20px;    
+}
